@@ -98,7 +98,7 @@
 
 ![image](https://github.com/user-attachments/assets/7c14de86-e0ec-43c1-9e9b-c0bc72946afc).
 
-Архитектуры** **политика.
+**Архитектуры** **политика.**
 
 ![mermaid-diagram-2025-03-30-225150](https://github.com/user-attachments/assets/51129fe5-1657-4c84-87f0-d0cacb164c20).
 
