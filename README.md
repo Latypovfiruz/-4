@@ -37,8 +37,10 @@
 
 
 **Контекст базовый вариант**
+
 Оплата пассажира при помощи биометрии 
-<img width="646" alt="Снимок экрана 2025-06-03 в 22 17 36" src="https://github.com/user-attachments/assets/d114b9d6-9451-45f0-b733-325a10c7e03e" />
+
+<img width="654" alt="Снимок экрана 2025-06-03 в 22 20 58" src="https://github.com/user-attachments/assets/301e1447-6451-46bd-ab88-a3b4eb92b747" />
 
 
 
@@ -48,8 +50,9 @@
 ![image](https://github.com/user-attachments/assets/8c413de1-7dc2-4e6a-91a6-3ab52eaf8e54)
 
 **Высокоуровневая архитектура**
+<img width="646" alt="Снимок экрана 2025-06-03 в 22 17 36" src="https://github.com/user-attachments/assets/29a8fe72-fb03-415d-8237-1f83d2d5a5b2" />
 
-![image](https://github.com/user-attachments/assets/5ec76da5-0311-46b0-8c01-d9e7cd111656)
+
 
 ## Подсистемы
 
