@@ -36,9 +36,11 @@
 
 
 
-**Контекст**
+**Контекст базовый вариант**
+Оплата пассажира при помощи биометрии 
+<img width="646" alt="Снимок экрана 2025-06-03 в 22 17 36" src="https://github.com/user-attachments/assets/d114b9d6-9451-45f0-b733-325a10c7e03e" />
 
-![mermaid-diagram-2025-03-30-231847](https://github.com/user-attachments/assets/3585e61a-b1ad-4296-96cf-c1fe775894cb)
+
 
 
 **Основные функциональные сценарии**
