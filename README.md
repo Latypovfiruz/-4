@@ -99,7 +99,7 @@
 
 **Политика архитектуры**
 
-![mermaid-diagram-2025-03-30-225150](https://github.com/user-attachments/assets/51129fe5-1657-4c84-87f0-d0cacb164c20)
+<img width="812" alt="Снимок экрана 2025-06-03 в 22 03 12" src="https://github.com/user-attachments/assets/d5cc84ab-7b56-4ab8-b0ce-e87dacbccbd9" />
 
 # Таблица доменов безопасности системы
 
