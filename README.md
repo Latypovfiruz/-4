@@ -50,6 +50,8 @@
 ![image](https://github.com/user-attachments/assets/8c413de1-7dc2-4e6a-91a6-3ab52eaf8e54)
 
 **Высокоуровневая архитектура**
+
+
 <img width="646" alt="Снимок экрана 2025-06-03 в 22 17 36" src="https://github.com/user-attachments/assets/29a8fe72-fb03-415d-8237-1f83d2d5a5b2" />
 
 
