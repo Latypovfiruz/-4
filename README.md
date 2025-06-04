@@ -51,8 +51,7 @@
 
 **Высокоуровневая архитектура**
 
-
-<img width="715" alt="Снимок экрана 2025-06-04 в 22 14 16" src="https://github.com/user-attachments/assets/03cc8883-bea4-4ba6-b939-726fd1c5ac57" />
+<img width="734" alt="Снимок экрана 2025-06-04 в 22 16 33" src="https://github.com/user-attachments/assets/a50a017b-1e10-4731-a08e-4c9de2a72146" />
 
 
 
