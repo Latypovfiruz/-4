@@ -109,7 +109,8 @@
 
 **Политика архитектуры**
 
-<img width="715" alt="Снимок экрана 2025-06-04 в 22 14 16" src="https://github.com/user-attachments/assets/cd95557c-7bce-41f7-a488-9dc82be8e4c6" />
+<img width="696" alt="Снимок экрана 2025-06-04 в 22 31 13" src="https://github.com/user-attachments/assets/080e5864-e6e0-4a52-995e-eca1bfb75e5b" />
+
 
 
 # Таблица доменов безопасности системы
