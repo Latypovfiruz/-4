@@ -109,7 +109,8 @@
 
 **Политика архитектуры**
 
-<img width="696" alt="Снимок экрана 2025-06-04 в 22 31 13" src="https://github.com/user-attachments/assets/080e5864-e6e0-4a52-995e-eca1bfb75e5b" />
+<img width="915" alt="Снимок экрана 2025-06-05 в 13 15 16" src="https://github.com/user-attachments/assets/ae76881c-c385-4dde-a89a-60bb339147e9" />
+
 
 
 
