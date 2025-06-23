@@ -84,3 +84,60 @@
 ## Политика архитектуры
 
 <img width="682" alt="Снимок экрана 2025-06-06 в 14 05 42" src="https://github.com/user-attachments/assets/3c629251-8c47-4b7a-93ff-1f348f571b94" />
+
+
+
+## Реализация на питоне 
+def check_operation(event_id, details):
+    authorized = False
+    print(f"[info] checking policies for event {event_id}, "
+          f"{details['source']} -> {details['deliver_to']}: {details['operation']}")
+
+    src = details['source']
+    dst = details['deliver_to']
+    operation = details['operation']
+
+    # Политика взаимодействий по диаграмме
+    if src == 'Пассажир' and dst == 'Сканер биометрии' and operation == 'предоставить_биометрию':
+        authorized = True
+    if src == 'Сканер биометрии' and dst == 'Локальный журнал' and operation == 'записать_лог':
+        authorized = True
+    if src == 'Сканер биометрии' and dst == 'Центральная система цифрового управления' and operation == 'отправить_биометрию':
+        authorized = True
+    if src == 'Центральная система цифрового управления' and dst == 'Локальный журнал' and operation == 'обновить_журнал':
+        authorized = True
+    if src == 'Центральная система цифрового управления' and dst == 'Автономный модуль' and operation == 'управляющая_команда':
+        authorized = True
+    if src == 'Центральная система цифрового управления' and dst == 'Управление' and operation == 'отправить_разрешение':
+        authorized = True
+    if src == 'Политика безопасности' and dst == 'Модуль мониторинга' and operation == 'установить_правила':
+        authorized = True
+    if src == 'Модуль мониторинга' and dst == 'Центральная система цифрового управления' and operation == 'мониторинг_состояния':
+        authorized = True
+    if src == 'Локальный журнал' and dst == 'Центральная система цифрового управления' and operation == 'передать_логи':
+        authorized = True
+    if src == 'Автономный модуль' and dst == 'Связь' and operation == 'передача_данных':
+        authorized = True
+    if src == 'Связь' and dst == 'Банк' and operation == 'транзакция':
+        authorized = True
+    if src == 'Банк' and dst == 'Связь' and operation == 'ответ_банка':
+        authorized = True
+    if src == 'Связь' and dst == 'Автономный модуль' and operation == 'обратная_связь':
+        authorized = True
+    if src == 'Управление' and dst == 'Двери' and operation == 'открыть_или_закрыть':
+        authorized = True
+    if src == 'Двери' and dst == 'Пассажир' and operation == 'разрешить_доступ':
+        authorized = True
+
+    return authorized
+
+
+
+
+details = {
+    'source': 'Пассажир',
+    'deliver_to': 'Сканер биометрии',
+    'operation': 'предоставить_биометрию'
+}
+print(check_operation("event-001", details))
+
