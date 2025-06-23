@@ -95,7 +95,7 @@
 
 
 ## Реализация на питоне 
-def check_operation(event_id, details):
+" def check_operation(event_id, details):
     authorized = False
     print(f"[info] checking policies for event {event_id}, "
           f"{details['source']} -> {details['deliver_to']}: {details['operation']}")
@@ -139,12 +139,10 @@ def check_operation(event_id, details):
     return authorized
 
 
-
-
 details = {
     'source': 'Пассажир',
     'deliver_to': 'Сканер биометрии',
     'operation': 'предоставить_биометрию'
 }
-print(check_operation("event-001", details))
+print(check_operation("event-001", details)) "
 
